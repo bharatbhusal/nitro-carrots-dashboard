@@ -1,0 +1,108 @@
+/* DataDisplayComponent.css */
+
+.data-display {
+	margin-top: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.points-summary {
+	margin-bottom: 20px;
+}
+
+.categories-list {
+	margin-bottom: 20px;
+}
+
+.points-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.points-table th,
+.points-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.points-table th {
+	background-color: #f2f2f2;
+}
+
+.points-table tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+.points-table tr:hover {
+	background-color: #f0f0f0;
+}
+
+/* DataInputComponent.css */
+
+.input-container {
+	margin-bottom: 20px;
+}
+
+.input-label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.input-field {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.submit-button {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background-color: #0056b3;
+}
+
+/* App.css */
+
+.app-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.modal-dialog {
+	margin: 1.5rem auto;
+}
+
+@media screen and (max-width: 600px) {
+	.modal-dialog {
+		max-width: 95%;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+	.modal-dialog {
+		max-width: 95%;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.modal-dialog {
+		max-width: 60%;
+	}
+}
